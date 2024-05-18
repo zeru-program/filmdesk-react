@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: "Poppins", Sans-Serif;
+}
+
+@media screen and (max-width: 568px) {
+    .contain-box {
+        gap: 8px;
+    }
+}
+@media screen and (min-width: 568px) {
+    .contain-box {
+        gap: 50px;
+    }
+    .card {
+        width: 250px !important;
+    }
+}
+p {
+    margin: 0;
+}
