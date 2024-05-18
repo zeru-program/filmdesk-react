@@ -8,7 +8,7 @@ const resultsPerPage = 10;
 
 function Navbar() {
   const HandleGithub = () => {
-      window.open('github.com')
+      window.open('https://github.com/zeru-program/filmdesk-react')
   }
     
   return (
